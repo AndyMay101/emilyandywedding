@@ -11,25 +11,23 @@ body
     font-weight: bold;
     color: white;
 }
-
+/* code below is for the header and its items */ {}
 header {
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: row;
-  background-color: #0f52ba;
   width: 100%;
   height: 120px;
   margin: 0;
   border-bottom: 1px solid seashell;
-  opacity: 0.7;
 }
 
 .headerimg
 {
   width: 100%;
-  height: 100px;
-  background-color: #0f52ba;
+  height: 116px;
+  background-color:	 #77b300;
   display: flex;
   align-items: center;
   text-align: center;
@@ -45,20 +43,21 @@ header {
   display: block;
 }
 
-
+/* code below is for the mainpage body and its items */ {}
 .container {
     background-image: url("https://andymay101.github.io/emilyandywedding/resources/media/dovedale.JPG");
-    height: 650px;
+    height: 800px;
     width: 100%;
     display: flex;
     flex-direction: column;
     flex-grow: 10%;
+    padding-top: 40px;
     overflow: hidden;
     align-items: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: center;
+    justify-content: space-between;
   }
 
 .box {
@@ -67,9 +66,9 @@ header {
   height: 70px;
   background-color: white;
   display: flex;
-  margin: 25px;
+  margin: 20px;
   color: black;
-  font-size: 24px;
+  font-size: 24.1px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -109,28 +108,95 @@ p {
   display: block;
 }
 
-.details {
-  height: 80%;
-  width: 80%;
-  display: block;
-  background-color: white;
-  opacity: 0.85;
-  text-align: center;
-  padding: 30px;
-}
 
+
+/* code below is for the footer and its items */ {}
 
 footer {
-  position: absolute;
+  position:relative;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: row;
-  background-color: #0f52ba;
+  background-color:  #77b300;
   width: 100%;
-  height: 80px;
+  height: 100px;
   margin-left: 0;
   margin-right: 0
   margin-bottom;
-  border-top: 1px solid seashell;
-  opacity: 0.7;
+  border-top: 2px solid seashell;
+
+}
+/* code below is for the venue page and its items */ {}
+
+.details {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  background-color: white;
+  opacity: 0.85;
+  padding: 4%;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.subhead {
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pbody
+{
+  font-weight: lighter;
+  text-align: center;
+}
+
+.goback {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map
+{
+  background-color: lightblue;
+  height: auto;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  width: 80%;
+  margin-top: 10px;
+  max-width: 600px;
+  text-align: center;
+  border: lightblue solid 1px;
+  padding: 0.3rem;
+
+}
+
+/* code below is for the venue page and its items */ {}
+
+.containeriframe {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10%;
+    overflow: hidden;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+}
+.iframefoot
+{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    text-decoration: underline;
+}
+@media query {
+
+}
