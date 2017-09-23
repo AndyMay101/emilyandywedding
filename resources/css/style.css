@@ -197,9 +197,11 @@ footer {
   .box {
     width: 80%
 }
-  .container {
+  body {
     background-size: cover;
-    background-repeat:no-repeat;
     background-position:center;
   }
+  .container {
+    background-size: cover;
+    background-position: center;
 }
