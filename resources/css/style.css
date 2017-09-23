@@ -136,6 +136,10 @@ footer {
   overflow:hidden;
 }
 
+#details2 {
+  flex-direction: row;
+}
+
 .subhead {
   text-decoration: underline;
   font-weight: bold;
@@ -151,26 +155,33 @@ footer {
 
 .goback {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  align-content: center;
+  justify-content: space-around;
 }
 
 .map
 {
   background-color: lightblue;
   height: auto;
+  margin: 10px;
   font-size: 20px;
   font-weight: bold;
   display: block;
   width: 80%;
   margin-top: 10px;
+  min-width: 70px;
   max-width: 600px;
   text-align: center;
-  border: lightblue solid 1px;
-  padding: 0.3rem;
-
+  border: blue solid 1px;
+  padding: 0.3rem 0.6rem 0.3rem 0.6rem;
 }
+
+.map:hover {
+      background-color: darkblue;
+      border: 2px solid seashell;
+      color: white;
 
 /* code below is for the venue page and its items */ {}
 
@@ -206,7 +217,6 @@ body {
 .details {
     height: 90%;
 }
-
   .container .containeriframe {
     background-image: url("https://andymay101.github.io/emilyandywedding/resources/media/dovedalemob.jpg");
     background-size: 100% 100%;
