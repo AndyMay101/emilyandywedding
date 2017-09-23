@@ -51,7 +51,7 @@ header {
     display: flex;
     flex-direction: column;
     flex-grow: 10%;
-    padding-top: 40px;
+    padding-top: 1.2rem;
     overflow: hidden;
     align-items: center;
     background-position: center;
@@ -113,7 +113,6 @@ p {
 /* code below is for the footer and its items */ {}
 
 footer {
-  position:relative;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -123,9 +122,10 @@ footer {
   height: 100px;
   margin-left: 0;
   margin-right: 0
-  margin-bottom;
+  margin-bottom 0;
   border-top: 2px solid seashell;
-
+  position:absolute;
+  bottom:0;
 }
 /* code below is for the venue page and its items */ {}
 
@@ -197,8 +197,11 @@ footer {
     color: white;
     text-decoration: underline;
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
   .box {
     width: 80%
+}
+  .container {
+    height: 100%;
   }
 }
