@@ -19,7 +19,6 @@ header {
   flex-direction: row;
   width: 100%;
   height: 120px;
-  margin: 0;
   border-bottom: 1px solid seashell;
 }
 
@@ -48,16 +47,17 @@ header {
     background-image: url("https://andymay101.github.io/emilyandywedding/resources/media/dovedale.JPG");
     height: 800px;
     width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     flex-grow: 10%;
-    padding-top: 1.2rem;
     overflow: hidden;
     align-items: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: space-between;
+    justify-content: center;
   }
 
 .box {
@@ -67,6 +67,7 @@ header {
   background-color: white;
   display: flex;
   margin: 20px;
+  margin-top: 50px;
   color: black;
   font-size: 24.1px;
   text-align: center;
@@ -120,9 +121,7 @@ footer {
   background-color:  #77b300;
   width: 100%;
   height: 100px;
-  margin-left: 0;
-  margin-right: 0
-  margin-bottom 0;
+  margin: 0;
   border-top: 2px solid seashell;
   bottom:0;
 }
@@ -196,16 +195,15 @@ footer {
     color: white;
     text-decoration: underline;
 }
-@media only screen and (min-width: 320px) and (max-width: 600px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
   .box {
     width: 80%
 }
   .container {
-    height: 100%;
     background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:100vh;
   }
-  body
-  {
-      height:100vh;
-  }
+
 }
