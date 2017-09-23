@@ -200,8 +200,9 @@ footer {
     background-position:center;
   }
   .container {
-    background-image: url("https://andymay101.github.io/emilyandywedding/resources/media/dovedalemob.JPG");
+    background-image: url("https://andymay101.github.io/emilyandywedding/resources/media/dovedalemob.jpg");
     background-size: 100% 100%;
     background-position: center;
     overflow: hidden;
+}
 }
