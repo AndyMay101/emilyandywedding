@@ -49,11 +49,10 @@ header {
     display: flex;
     flex-direction: column;
     flex-grow: 10%;
-    overflow: hidden;
+
     align-items: center;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     justify-content: center;
   }
@@ -204,4 +203,5 @@ footer {
   .container {
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
