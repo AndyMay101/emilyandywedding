@@ -191,7 +191,8 @@ footer {
     color: white;
     text-decoration: underline;
 }
-@media only screen and (min-width: 200px) and (max-width: 660px) {
+@media only screen and (min-width: 200px) and (max-width: 660px)
+{
   .box {
     width: 80%
 }
