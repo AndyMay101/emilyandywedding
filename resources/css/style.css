@@ -41,7 +41,8 @@ header {
 /* code below is for the mainpage body and its items */ {}
 .container {
     background-image: url("https://andymay101.github.io/emilyandywedding/resources/media/dovedale.JPG");
-    height: 800px;
+    min-height: 800px;
+    height: 100%;
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -128,10 +129,11 @@ footer {
   width: 80%;
   display: flex;
   background-color: white;
+  background-size: cover;
   opacity: 0.85;
   padding: 4%;
   flex-direction: column;
-  overflow: hidden;
+  overflow:hidden;
 }
 
 .subhead {
@@ -144,6 +146,7 @@ footer {
 {
   font-weight: lighter;
   text-align: center;
+  font-size: 20px;
 }
 
 .goback {
@@ -196,11 +199,15 @@ footer {
   .box {
     width: 80%
 }
-  body {
+body {
     background-size: cover;
     background-position:center;
   }
-  .container {
+.details {
+    height: 90%;
+}
+
+  .container .containeriframe {
     background-image: url("https://andymay101.github.io/emilyandywedding/resources/media/dovedalemob.jpg");
     background-size: 100% 100%;
     background-position: center;
