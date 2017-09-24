@@ -84,13 +84,14 @@ header {
   height: 70px;
   background-color: white;
   display: flex;
-  margin: 5%;
+  margin: 3%;
   color: black;
   font-size: 24.1px;
   text-align: center;
   align-items: center;
   justify-content: center;
   opacity: 0.85;
+  border: 2px solid lightgray;
 }
 
 .box:hover {
