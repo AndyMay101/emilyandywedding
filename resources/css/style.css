@@ -5,8 +5,28 @@ html body
     font-family: garamond;
     font-weight: bold;
     color: white;
-    font-size: 32px;
+    font-size: 16px;
 }
+h2 {
+   color: black;
+   font-size: 200%;
+ }
+p {
+  color: black;
+  font-size: 3vw;
+}
+
+a {
+  font-size: 110%
+}
+
+
+@media only screen and (min-width:600px)
+{body
+  {
+    font-size: 12px;
+}
+  }
 
 /* code below is for the header and its items */ {}
 header {
@@ -37,6 +57,7 @@ header {
   text-align: center;
   padding: 20px;
   display: block;
+  font-size: 32px;
 }
 
 /* code below is for the mainpage body and its items */ {}
@@ -94,19 +115,7 @@ a {
   display: block;
   text-align: center;
   margin: 2px;
-  word-wrap:break-word;
 }
-
-
-h2 {
-   color: black;
-   font-size: 24px;
- }
-p {
-  color: black;
-  font-size: 18px;
-}
-
 .boxtext
 {
   margin: 10px;
@@ -148,6 +157,7 @@ footer {
   opacity: 0.85;
   padding: 4%;
   margin: 2px;
+  z-index: 1;
 }
 
 #details2 {
