@@ -59,7 +59,7 @@ header {
 
 .box {
   width: 50%;
-  min-width: 250px;
+  min-width: 300px;
   height: 70px;
   background-color: white;
   display: flex;
@@ -89,6 +89,13 @@ a {
 .mainmenu {
   color: black;
 }
+.clickboxes {
+  color: white;
+  padding: 0.7rem 0.5rem;
+  display: block;
+  text-align: center;
+}
+
 
 h2 {
    color: black;
@@ -140,11 +147,14 @@ footer {
   opacity: 0.85;
   padding: 4%;
   flex-direction: column;
-  overflow:hidden;
 }
 
 #details2 {
+  justify-content: center;
+  display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .subhead {
@@ -185,9 +195,8 @@ footer {
   margin-top: 10px;
   max-width: 600px;
   text-align: center;
-  align-content: center;
   border: blue solid 1px;
-  padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+  padding: 0.4rem 0.6rem 0.4rem 0.6rem;
 }
 
 .map:hover {
@@ -222,17 +231,19 @@ footer {
     margin: 0;
   }
 
-@media only screen and (min-width: 200px) and (max-width: 700px)
-{
+@media screen and (max-width: 700px)
+ and (min-width: 280px)  {
+
 .details {
     height: 90%;
 }
-  .container .containeriframe {
+.box {
+  width: 80%;
+}
+
+.container .containeriframe {
     background-image: url("https://andymay101.github.io/emilyandywedding/resources/media/dovedalemob.jpg");
     background-size: 100% 100%;
-    background-position: center;
-    overflow: hidden;
     padding-top: 4px;
     padding-bottom: 4px;
-}
 }
