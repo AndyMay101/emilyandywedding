@@ -159,16 +159,12 @@ footer {
   opacity: 0.85;
   padding: 4%;
   margin: 2px;
+  margin-bottom: 4px;
   z-index: 1;
-}
-
-#details2 {
   justify-content: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 80%;
-  margin-top: 10px;
 }
 
 .subhead {
@@ -207,9 +203,8 @@ footer {
   font-size: 20px;
   margin: 10px;
   display: block;
-  width: 80%;
+  width: 90%;
   margin-top: 10px;
-  max-width: 600px;
   text-align: center;
   border: blue solid 1px;
   padding: 0.4rem 0.6rem 0.4rem 0.6rem;
