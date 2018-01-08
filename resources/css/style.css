@@ -20,13 +20,15 @@ a {
   font-size: 110%
 }
 
+li {
+}
 
 @media only screen and (max-width :600px) {
   body {
-      font-size: 0.8rem;}
+      font-size: 0.7rem;}
   div.box {
     height: 6rem;
-    font-size: 1.6rem; }
+    font-size: 1.4rem; }
   }
 
 /* code below is for the header and its items */ {}
