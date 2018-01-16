@@ -28,9 +28,15 @@ li {
       font-size: 0.7rem;}
   div.box {
     height: 6rem;
-    font-size: 1.4rem; }
+    font-size: 1.3rem; }
   div.map {
     width: 90%
+  }
+}
+
+@media only screen and (max-width :1050px) and (min-width:600px)  {
+  div.map {
+    width: 85%
   }
 }
 /* code below is for the header and its items */ {}
@@ -170,7 +176,7 @@ footer {
   z-index: 1;
   justify-content: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: wrap;
   flex-wrap:wrap;
 }
 
