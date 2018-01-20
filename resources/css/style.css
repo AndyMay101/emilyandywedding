@@ -247,6 +247,13 @@ footer {
 .footertext {
   color: white;
 }
+/* code below is for the accomodation page and its items */ {}
+
+.accom {
+  text-decoration: underline;
+  background-color: gray;
+}
+
 /* code below is for the music playlist page and its items */ {}
 
 .blackbackground
