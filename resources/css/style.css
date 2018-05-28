@@ -20,8 +20,10 @@ a {
   font-size: 110%
 }
 
-li {
+ul li {
+ margin-left:0px;
 }
+
 
 @media only screen and (max-width :600px) {
   body {
